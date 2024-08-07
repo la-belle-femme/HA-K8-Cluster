@@ -35,9 +35,3 @@ git push origin master
 
 # Set upstream for 'master' branch and push changes
 git push --set-upstream origin master
-
-
-# git pull origin main
-# git add .
-# git commit -m "$1"
-# git push origin main
