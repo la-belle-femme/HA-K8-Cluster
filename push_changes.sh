@@ -14,6 +14,10 @@ git pull origin main --allow-unrelated-histories
 
 # Add all changes to staging
 git add .
+git add .gitignore
+git commit -m "Added .terraform and large files to .gitignore"
+git push origin main  # or git push origin master if you're on the master branch
+
 
 # Commit the changes with a message
 git commit -m "created 2 masters and 3 worker nodes using terraform"
